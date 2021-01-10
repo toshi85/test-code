@@ -1,0 +1,31 @@
+@charset "UTF-8";
+h1 {
+  color: pink;
+  font-size: 20px;
+}
+
+div {
+  color: blue;
+}
+
+div ul {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div ul ::before {
+  content: "テストbefore ";
+  color: black;
+}
+
+div ul ::after {
+  content: " テストafter";
+  color: green;
+}
+
+div p {
+  font-size: 32px;
+  margin: 80px 180px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+h1 {
+  color: pink;
+  font-size: 20px;
+}
+ div {
+   color: blue;
+    ul {
+      color: red;
+      font-size: 18px;
+      font-weight: bold;
+        & ::before{
+          content: "テストbefore ";
+          color: black;
+        }
+        & ::after{
+          content: " テストafter";
+          color: green;
+        }
+    }
+    p {
+      font-size: 32px;
+      margin: 80px 180px;
+    }
+
+ }
